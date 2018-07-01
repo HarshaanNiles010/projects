@@ -50,8 +50,4 @@ clear=Button(cal,padx=16,bd=8,fg="black",font=('arial',20,'bold'),
 	        text="c",bg="powder blue",command=lambda:btncleardisplay()).grid(row=5,column=0)
 Equal=Button(cal,padx=16,bd=8,fg="black",font=('arial',20,'bold'),
 	        text="=",bg="powder blue",command=lambda:btnequalsinput()).grid(row=5,column=1)
-power=Button(cal,padx=16,bd=8,fg="black",font=('arial',20,'bold'),
-	        text="**",bg="powder blue").grid(row=5,column=2)
-logarithm=Button(cal,padx=16,bd=8,fg="black",font=('arial',20,'bold'),
-	        text="ln",bg="powder blue").grid(row=5,column=3)
 cal.mainloop()
