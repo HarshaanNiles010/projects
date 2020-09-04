@@ -1,4 +1,6 @@
-from tkinter import *  
+from tkinter import *
+def doNothing():
+    pass  
 def Btnclick(numbers):
 	global operator
 	operator=operator+str(numbers)
