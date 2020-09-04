@@ -51,3 +51,4 @@ clear=Button(cal,padx=16,bd=8,fg="black",font=('arial',20,'bold'),
 Equal=Button(cal,padx=16,bd=8,fg="black",font=('arial',20,'bold'),
 	        text="=",bg="powder blue",command=lambda:btnequalsinput()).grid(row=5,column=1)
 cal.mainloop()
+
